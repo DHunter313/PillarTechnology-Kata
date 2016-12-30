@@ -12,10 +12,10 @@ using System.Threading.Tasks;
         {
           
         }
-        public static int WageCalc(int hours, int beforeBedTimeHours)
+        public static int WageCalc(int hours, int beforeBedTimeHours, int after_MidNiteHours)
         {
-            int AfterBedTimeHours = hours - beforeBedTimeHours;
-            int pay = (beforeBedTimeHours * 12) + (AfterBedTimeHours * 8);
+            int AfterBedTimeHours_BeforeMidnite = hours - beforeBedTimeHours - after_MidNiteHours;
+            int pay = (beforeBedTimeHours * 12) + (AfterBedTimeHours_BeforeMidnite * 8) + (after_MidNiteHours * 16);
             return pay;
         }
     }
