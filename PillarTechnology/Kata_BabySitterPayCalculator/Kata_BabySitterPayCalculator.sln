@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_BabySitterPayCalculator", "Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator.csproj", "{5858DA63-4B23-4474-94EC-F7D71F304B97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayCalculatorTestCases", "Kata_BabySitterPayCalculator\PayCalculatorTestCases.csproj", "{5858DA63-4B23-4474-94EC-F7D71F304B97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayCalculator", "PayCalculator\PayCalculator.csproj", "{C458039D-107B-4BCA-9E02-9B18034F13DA}"
 EndProject

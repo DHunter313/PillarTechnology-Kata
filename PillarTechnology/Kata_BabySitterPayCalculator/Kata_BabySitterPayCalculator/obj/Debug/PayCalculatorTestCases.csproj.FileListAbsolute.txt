@@ -1,0 +1,8 @@
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\bin\Debug\PayCalculatorTestCases.dll
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\bin\Debug\PayCalculatorTestCases.pdb
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\bin\Debug\PayCalculator.exe
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\bin\Debug\PayCalculator.pdb
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\obj\Debug\PayCalculatorTestCases.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\obj\Debug\PayCalculatorTestCases.dll
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\obj\Debug\PayCalculatorTestCases.pdb

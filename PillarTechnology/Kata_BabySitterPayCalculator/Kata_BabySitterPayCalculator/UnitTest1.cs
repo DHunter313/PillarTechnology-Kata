@@ -1,14 +1,17 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PayCalculator;
-namespace Kata_BabySitterPayCalculator
+namespace PayCalculatorTestCases
 {
     [TestClass]
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
-        { //
+        public void basicFailedTest()
+        {
+            double pay = Program.WageCalc();
+
+            Assert.AreEqual(null, pay);
         }
     }
 }

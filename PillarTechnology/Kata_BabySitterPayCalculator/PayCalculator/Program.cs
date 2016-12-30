@@ -12,5 +12,9 @@ using System.Threading.Tasks;
         {
           
         }
+        public static int WageCalc()
+        {
+            return 0;
+        }
     }
 }
