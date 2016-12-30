@@ -14,8 +14,8 @@ using System.Threading.Tasks;
         }
         public static int WageCalc(int pay)
         {
-            
-            return 0;
+            pay = pay * 12;
+            return pay;
         }
     }
 }
