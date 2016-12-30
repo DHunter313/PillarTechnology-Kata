@@ -6,12 +6,22 @@ namespace PayCalculatorTestCases
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
-        public void basicFailedTest()
-        {
-            double pay = Program.WageCalc();
+        //[TestMethod]
+        //public void basicFailedTest()
+        //{
+        //    double pay = Program.WageCalc();
 
-            Assert.AreEqual(0, pay);
+        //    Assert.AreEqual(0, pay);
+        //}
+
+        [TestMethod]
+        public void WageTest_BeforeBedtime()
+        {
+            // 5 hours worked at a rate of 12/hr = 60
+
+            int pay = Program.WageCalc(5);
+
+            Assert.AreEqual(60, pay);
         }
     }
 }

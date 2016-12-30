@@ -12,8 +12,9 @@ using System.Threading.Tasks;
         {
           
         }
-        public static int WageCalc()
+        public static int WageCalc(int pay)
         {
+            
             return 0;
         }
     }
