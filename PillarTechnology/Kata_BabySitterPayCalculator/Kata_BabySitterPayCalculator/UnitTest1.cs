@@ -76,6 +76,9 @@ namespace PayCalculatorTestCases
             int pay = Program.WageCalc(3, 0, 3);
             Assert.AreEqual(48, pay);
 
+            int pay2 = Program.WageCalc(10, 0, 10);
+            Assert.AreEqual(160, pay2);
+
         }
     }
 }

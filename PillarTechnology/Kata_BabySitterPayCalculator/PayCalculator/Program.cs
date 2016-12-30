@@ -36,7 +36,7 @@ namespace PayCalculator
 
                 else
                 {
-                    beforeBedtime = hours;
+                    beforeBedtime = 0;
                 }
 
                 #endregion
@@ -74,8 +74,16 @@ namespace PayCalculator
         }
         public static int WageCalc(int hours, int beforeBedTimeHours, int after_MidNiteHours)
         {
-            int AfterBedTimeHours_BeforeMidnite = hours - beforeBedTimeHours - after_MidNiteHours;
-            int pay = (beforeBedTimeHours * 12) + (AfterBedTimeHours_BeforeMidnite * 8) + (after_MidNiteHours * 16);
+            int pay;
+            if (after_MidNiteHours == hours)
+            {
+                pay = after_MidNiteHours * 16;
+            }
+            else
+            {
+                int AfterBedTimeHours_BeforeMidnite = hours - beforeBedTimeHours - after_MidNiteHours;
+                pay = (beforeBedTimeHours * 12) + (AfterBedTimeHours_BeforeMidnite * 8) + (after_MidNiteHours * 16);
+            }
             return pay;
         }
     }
