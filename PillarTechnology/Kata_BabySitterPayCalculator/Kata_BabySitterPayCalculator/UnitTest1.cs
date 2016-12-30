@@ -53,5 +53,18 @@ namespace PayCalculatorTestCases
 
             Assert.AreEqual(28, pay);
         }
+
+        [TestMethod]
+        public void WageTest_AfterMidnite()
+        {
+            // totalTime is 10 hours
+            // start time is 5pm
+            // bedtime is 11pm, which is 6 hours from start time
+            //wage should equal $128
+            //
+            int pay = Program.WageCalc(10, 6);
+
+            Assert.AreEqual(128, pay);
+        }
     }
 }
