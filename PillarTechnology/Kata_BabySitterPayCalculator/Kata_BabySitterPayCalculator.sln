@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayCalculatorTestCases", "K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayCalculator", "PayCalculator\PayCalculator.csproj", "{C458039D-107B-4BCA-9E02-9B18034F13DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3483D05E-0E27-4BC3-A2B4-120105737908}"
+	ProjectSection(SolutionItems) = preProject
+		iNSTRUCTIONS.txt = iNSTRUCTIONS.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
