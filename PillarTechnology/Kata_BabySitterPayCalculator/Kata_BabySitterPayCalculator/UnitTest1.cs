@@ -40,5 +40,18 @@ namespace PayCalculatorTestCases
             Assert.AreEqual(20, pay2);
 
         }
+
+        [TestMethod]
+        public void AfterBedtime_BeforeMidnite()
+        {
+            // 3 hours of work
+            // started at 7pm, and ends at 10pm.
+            // bedtime is 8pm, which is 1 hour after start time.
+            // Wage should equal 28
+
+            double pay = Program.WageCalc(3, 1);
+
+            Assert.AreEqual(28, pay);
+        }
     }
 }
