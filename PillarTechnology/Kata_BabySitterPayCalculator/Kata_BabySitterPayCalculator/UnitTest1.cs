@@ -67,5 +67,15 @@ namespace PayCalculatorTestCases
 
             Assert.AreEqual(128, pay);
         }
+
+        [TestMethod]
+        public void WageTest_WorkAfterMidniteOnly()
+        {
+            //working 3 hours after midnight.
+            // pay should be 48
+            int pay = Program.WageCalc(3, 0, 3);
+            Assert.AreEqual(48, pay);
+
+        }
     }
 }
