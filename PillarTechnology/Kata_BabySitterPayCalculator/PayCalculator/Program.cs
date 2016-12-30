@@ -26,17 +26,15 @@ namespace PayCalculator
                 Console.WriteLine("\nDid the child have a bedtime? ");
                 string response_bedTime = Console.ReadLine();
                 int beforeBedtime;
-
                 if (response_bedTime == "y")
                 {
                     Console.WriteLine(" Please enter in the amount of hours you worked before the sleep time. ");
                     Console.Write("Amount before bedtime: ");
                     beforeBedtime = Convert.ToInt32(Console.ReadLine());
                 }
-
                 else
                 {
-                    beforeBedtime = 0;
+                    beforeBedtime = 100;
                 }
 
                 #endregion
@@ -60,7 +58,17 @@ namespace PayCalculator
 
                 #region Wage Calculation
                 Console.Clear();
-                int pay = WageCalc(hours, beforeBedtime, afterMidnight);
+                int pay;
+                //I use the if else statement to control the fllow and keep calculations correct. Used in the case that there is no bedtime.
+                if (beforeBedtime == 100)
+                {
+                    pay = WageCalc(hours, afterMidnight);
+                }
+
+                else
+                {
+                    pay = WageCalc(hours, beforeBedtime, afterMidnight);
+                }
 
                 Console.WriteLine($"Total Hours: {hours} \nTotal Pay = ${pay}");
                 Console.WriteLine("\n\n Would you like to calculate again? (y or n)");
@@ -75,15 +83,21 @@ namespace PayCalculator
         public static int WageCalc(int hours, int beforeBedTimeHours, int after_MidNiteHours)
         {
             int pay;
-            if (after_MidNiteHours == hours)
-            {
-                pay = after_MidNiteHours * 16;
-            }
-            else
-            {
-                int AfterBedTimeHours_BeforeMidnite = hours - beforeBedTimeHours - after_MidNiteHours;
-                pay = (beforeBedTimeHours * 12) + (AfterBedTimeHours_BeforeMidnite * 8) + (after_MidNiteHours * 16);
-            }
+
+            int AfterBedTimeHours_BeforeMidnite = hours - beforeBedTimeHours - after_MidNiteHours;
+            pay = (beforeBedTimeHours * 12) + (AfterBedTimeHours_BeforeMidnite * 8) + (after_MidNiteHours * 16);
+
+            return pay;
+        }
+
+        // I used polymorphism in order to avoid a miscalculation from the bedtime.
+        public static int WageCalc(int hours, int after_MidNiteHours)
+        {
+            int pay;
+
+            int BeforeMidnite = hours - after_MidNiteHours;
+            pay = (BeforeMidnite * 12) + (after_MidNiteHours * 16);
+
             return pay;
         }
     }

@@ -3,3 +3,4 @@ C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\Pa
 C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\PayCalculator\bin\Debug\PayCalculator.pdb
 C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\PayCalculator\obj\Debug\PayCalculator.exe
 C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\PayCalculator\obj\Debug\PayCalculator.pdb
+C:\Users\admin\Documents\GitHub\PillarTechnology\Kata_BabySitterPayCalculator\PayCalculator\obj\Debug\PayCalculator.csprojResolveAssemblyReference.cache

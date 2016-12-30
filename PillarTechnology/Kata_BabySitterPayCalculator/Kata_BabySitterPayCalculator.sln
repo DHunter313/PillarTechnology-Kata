@@ -9,7 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayCalculator", "PayCalcula
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3483D05E-0E27-4BC3-A2B4-120105737908}"
 	ProjectSection(SolutionItems) = preProject
-		iNSTRUCTIONS.txt = iNSTRUCTIONS.txt
+		instructions for kata.txt = instructions for kata.txt
+		Read Me.txt = Read Me.txt
 	EndProjectSection
 EndProject
 Global
