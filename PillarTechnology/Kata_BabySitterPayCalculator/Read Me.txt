@@ -1,0 +1,30 @@
+Babysitter Kata
+
+Background
+----------
+This kata simulates a babysitter working and getting paid for one night.  The rules are pretty straight forward:
+
+The babysitter 
+- starts no earlier than 5:00PM
+- leaves no later than 4:00AM
+- gets paid $12/hour from start-time to bedtime
+- gets paid $8/hour from bedtime to midnight
+- gets paid $16/hour from midnight to end of job
+- gets paid for full hours (no fractional hours)
+
+Feature:
+As a babysitter
+In order to get paid for 1 night of work
+I want to calculate my nightly charge
+
+Notes:
+To run this app you can go into these folders and locate the .exe file
+
+PillarTechnology-Kata / PillarTechnology / Kata_BabySitterPayCalculator / Kata_BabySitterPayCalculator / bin / Debug / PayCalculator.exe
+
+or you can simply load the solution in Visual studios and run it.
+
+When it runs you will be required to enter in the details asked:
+- Total hours worked
+- if the child had a bedtime and if so hours worked before the child's bedtime
+- if you worked after midnght, and if so how many hours did you work after midnight. 
