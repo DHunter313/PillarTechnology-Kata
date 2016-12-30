@@ -11,7 +11,7 @@ namespace PayCalculatorTestCases
         {
             double pay = Program.WageCalc();
 
-            Assert.AreEqual(null, pay);
+            Assert.AreEqual(0, pay);
         }
     }
 }
