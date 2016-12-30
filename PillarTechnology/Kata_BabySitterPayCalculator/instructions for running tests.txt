@@ -7,3 +7,5 @@ press enter.
 type the following to run the tests the unit tests.
 
 MSTest /testcontainer:PayCalculatorTestCases.dll
+
+press enter.
