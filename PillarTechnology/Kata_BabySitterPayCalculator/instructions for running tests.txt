@@ -1,0 +1,11 @@
+Download the entire solution folder.
+Open command prompt
+open the downloaded folder and navigate here:   PillarTechnology\Kata_BabySitterPayCalculator\Kata_BabySitterPayCalculator\bin\Debug
+click the address bar and copy the destination path.
+go back to command prompt and type cd(add a space) then paste the path that you copied.
+press enter.
+type the following to run the tests the unit tests.
+
+MSTest /testcontainer:PayCalculatorTestCases.dll
+
+press enter.
